@@ -70,7 +70,7 @@ I used SERIAL4 (T4 and R4 ports) and [enameled wires](https://a.co/d/74X3URF) fo
    - Ensure there is no line like `console=serial0,115200` in `/boot/firmware/cmdline.txt`. If present, remove it to prevent the Raspberry Pi from using UART for console output.
    - reboot Raspberry Pi: `sudo reboot`
 8. Power up the drone.
-9. Run `test.py` to test the communication.
+9. Run `uart/test.py` to test the communication.
 
 ### Troubleshoot
 - Ensure TX and RX pins are properly connected (use GPIO 14 for TX and GPIO 15 for RX).
