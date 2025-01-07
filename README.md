@@ -12,16 +12,16 @@ A prototype for flying light specks
 
 
 ## List of parts
-1. [iFlight BLITZ Whoop F7 AIO flight controller](https://shop.iflight.com/BLITZ-Whoop-F7-AIO-Pro1927) (1X)
-2. [1404 Plus 6000kv motors](https://www.myfpvstore.com/motors/rcinpower-smoox-1404-plus-whoop-motor-gunmetal-blue-6000kv/?srsltid=AfmBOoqFCYuKe_lZ4RztSoZIATdFEbraSl6UrF0mSqzx-S929OD5cDPk4uk) (4X)
-3. [HQ Prop T3X2X3 Tri-Blade 3" Prop 4 Pack 1.5mm Shaft](https://www.racedayquads.com/products/hq-prop-t3x2x3-1-5mm-shaft-tri-blade-3-prop-4-pack-choose-color?currency=USD&variant=40070619332721&stkn=ed68f1cb6bdd&tw_source=google&tw_adid=717685084952&tw_campaign=21821665874&gad_source=1&gclid=Cj0KCQiA0fu5BhDQARIsAMXUBOJjdMI9eP1X8UswLH8dP3WppF2tAKTShEN8dZYi1DE7O35mmgM2xEEaAqgSEALw_wcB) (1X)
-4. [Raspberry Pi Zero 2 W + SD card with Raspberry OS](https://www.pishop.us/product/raspberry-pi-zero-2-w/?src=raspberrypi) (1X)
-5. [Raspberry Pi Camera Module 3 Wide NoIR](https://www.pishop.us/product/raspberry-pi-camera-module-3-wide-noir/) (1X)
-6. [Lipo Battery 850mAh 80C 11.1V 3S](https://a.co/d/hYqlLo6) (1X)
-7. [4pcs XT30 XT-30 to XT60 XT-60 Male Female RC Connector Adapter](https://a.co/d/1hygTM4) (1X)
-8. [M2 screws](https://a.co/d/6PfypLR) (1X)
-9. [Enameled copper wire](https://a.co/d/gU8BKby) (1X)
-10. [Charger](https://a.co/d/1dvDkIm) (1X)
+1. [iFlight BLITZ Whoop F7 AIO flight controller](https://shop.iflight.com/BLITZ-Whoop-F7-AIO-Pro1927)
+2. [1404 Plus 6000kv motors](https://www.myfpvstore.com/motors/rcinpower-smoox-1404-plus-whoop-motor-gunmetal-blue-6000kv/?srsltid=AfmBOoqFCYuKe_lZ4RztSoZIATdFEbraSl6UrF0mSqzx-S929OD5cDPk4uk)
+3. [HQ Prop T3X2X3 Tri-Blade 3" Prop 4 Pack 1.5mm Shaft](https://www.racedayquads.com/products/hq-prop-t3x2x3-1-5mm-shaft-tri-blade-3-prop-4-pack-choose-color?currency=USD&variant=40070619332721&stkn=ed68f1cb6bdd&tw_source=google&tw_adid=717685084952&tw_campaign=21821665874&gad_source=1&gclid=Cj0KCQiA0fu5BhDQARIsAMXUBOJjdMI9eP1X8UswLH8dP3WppF2tAKTShEN8dZYi1DE7O35mmgM2xEEaAqgSEALw_wcB)
+4. [Raspberry Pi Zero 2 W + SD card with Raspberry OS](https://www.pishop.us/product/raspberry-pi-zero-2-w/?src=raspberrypi)
+5. [Raspberry Pi Camera Module 3 Wide NoIR](https://www.pishop.us/product/raspberry-pi-camera-module-3-wide-noir/)
+6. [Lipo Battery 850mAh 80C 11.1V 3S](https://a.co/d/hYqlLo6)
+7. [4pcs XT30 XT-30 to XT60 XT-60 Male Female RC Connector Adapter](https://a.co/d/1hygTM4)
+8. [M2 screws](https://a.co/d/6PfypLR)
+9. [Enameled copper wire](https://a.co/d/gU8BKby)
+10. [Charger](https://a.co/d/1dvDkIm)
 11. [Molex connectors](https://a.co/d/1OW0Edu)
 
 ## Flash iNav to the flight controller.
@@ -75,6 +75,7 @@ See these for more details:
 2. Solder the wires to the motor pins on the flight controller board. For now the order of the wires doesn't matter we'll test the rotation direction in the next step and reorder them if necessary. You can use the pins on either side of the board. I used the upper part (where the USB port is present)
 3. Solder the XT30 wire to the power pins (red to the + and black to -). I used the upper side pins.
 4. Solder the capacitor the power pins, pay attention to the - and + pins. I connected the capacitor to the bottom side.
+   ![image](images/capacitor.jpeg)
 5. Connect the male Molex connector to the 5V and GND pins of the flight controller (red to 5V and black to the GND).
 6. See [this guide](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio) for Raspberry Pi pins and [this](https://ardupilot.org/plane/docs/common-iflight-blitzf7AIO.html#pinout) for the flight controller pins.
 I used [Molex connectors](https://a.co/d/1OW0Edu).
