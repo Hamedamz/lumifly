@@ -24,7 +24,7 @@ A prototype for flying light specks
 10. [Charger](https://a.co/d/1dvDkIm)
 11. [Molex connectors](https://a.co/d/1OW0Edu)
 
-## Flash iNav to the flight controller.
+## Flash iNav to the flight controller
 This prototype uses iFlight BLITZ Whoop F7 AIO which is a all-in-one flight controller with built-in ESC.
 The default firmware on the BLITZ Whoop F7 AIO is BetaFlight. Here is how to replace it with iNav. This guide is partially based on [this video](https://www.youtube.com/watch?v=xdf3yhlgJyc).
 
@@ -106,7 +106,6 @@ Note: remove the propellers before testing the motors.
 
 ### Power
 Connect the GND and 5V pins of the flight controller to the corresponding pins of Raspberry Pi. See [this guide](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio) for Raspberry Pi pins and [this](https://ardupilot.org/plane/docs/common-iflight-blitzf7AIO.html#pinout) for the flight controller pins.
-I used [Molex connectors](https://a.co/d/1OW0Edu).
 
 ### UART Connection
 SERIAL4 and SERIAL7 pins are free for custom applications. See [here](https://ardupilot.org/plane/docs/common-iflight-blitzf7AIO.html#pinout).
