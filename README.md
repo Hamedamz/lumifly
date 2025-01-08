@@ -1,3 +1,5 @@
+**This repo is moved to https://github.com/flyinglightspeck/FLS**
+
 # LumiFly
 A prototype for flying light specks
 
